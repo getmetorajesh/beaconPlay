@@ -21,6 +21,7 @@
 		026235381905125300ADC127 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0262351A1905125300ADC127 /* UIKit.framework */; };
 		026235401905125300ADC127 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0262353E1905125300ADC127 /* InfoPlist.strings */; };
 		026235421905125300ADC127 /* BeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 026235411905125300ADC127 /* BeaconTests.m */; };
+		0262354C190517B800ADC127 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0262354B190517B800ADC127 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0262353D1905125300ADC127 /* BeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconTests-Info.plist"; sourceTree = "<group>"; };
 		0262353F1905125300ADC127 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		026235411905125300ADC127 /* BeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconTests.m; sourceTree = "<group>"; };
+		0262354B190517B800ADC127 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0262354C190517B800ADC127 /* CoreLocation.framework in Frameworks */,
 				026235191905125300ADC127 /* CoreGraphics.framework in Frameworks */,
 				0262351B1905125300ADC127 /* UIKit.framework in Frameworks */,
 				026235171905125300ADC127 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		026235151905125300ADC127 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0262354B190517B800ADC127 /* CoreLocation.framework */,
 				026235161905125300ADC127 /* Foundation.framework */,
 				026235181905125300ADC127 /* CoreGraphics.framework */,
 				0262351A1905125300ADC127 /* UIKit.framework */,
